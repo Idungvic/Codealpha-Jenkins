@@ -5,31 +5,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Project Overview](#-project-overview)
-- [Objectives](#-objectives)
-- [Architecture](#-architecture)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-- [Phases](#-phases)
-  - [Phase 1 — Environment Setup](#phase-1--environment-setup)
-  - [Phase 2 — Connect Remote Nodes](#phase-2--connect-remote-nodes)
-  - [Phase 3 — Distribute Build Loads](#phase-3--distribute-build-loads)
-  - [Phase 4 — Security & Node Isolation](#phase-4--security--node-isolation)
-  - [Phase 5 — Cross-Architecture Testing](#phase-5--cross-architecture-testing)
-- [Pipelines](#-pipelines)
-- [Results](#-results)
-- [Challenges & Solutions](#-challenges--solutions)
-- [Lessons Learned](#-lessons-learned)
-- [Screenshots](#-screenshots)
-- [References](#-references)
-
----
-
 ## 📌 Project Overview
 
 This project demonstrates how **Jenkins Remoting** works in a real-world distributed CI/CD setup. Instead of running all builds on a single Jenkins master, build jobs are distributed across multiple remote agent nodes — each running independently and reporting results back to the master in real time.
@@ -244,7 +219,6 @@ pipeline {
     }
 }
 ```
-See full script: [`pipelines/parallel-pipeline.groovy`](pipelines/parallel-pipeline.groovy)
 
 ---
 
@@ -289,9 +263,9 @@ See full script: [`pipelines/parallel-pipeline.groovy`](pipelines/parallel-pipel
 
 | Description | File |
 |-------------|------|
-| Both agents online in Jenkins | `screenshots/nodes-online.png` ![alt text](image.png)|
-| Parallel pipeline stage view | `screenshots/parallel-build.png` ![alt text](image-1.png)|
-| Successful distributed build | `screenshots/build-success.png` ![alt text](image-2.png)|
+| Both agents online in Jenkins | ![alt text](image.png)|
+| Parallel pipeline stage view | ![alt text](image-1.png)|
+| Successful distributed build | ![alt text](image-2.png)|
 
 ---
 
@@ -299,7 +273,7 @@ See full script: [`pipelines/parallel-pipeline.groovy`](pipelines/parallel-pipel
 
 **Idung Victor**
 Code Alpha Internship — DevOps Track
-[Your GitHub Profile](https://github.com/yourusername)
+[Your GitHub Profile](https://github.com/Idungvic)
 
 ---
 
